@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<!--[if !IE]>
+<html class="no-js non-ie" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="ahrefs-site-verification" content="444ed4eb253b2e175037a391096cdabd0d7988515bc3666dafd8b616dd27dfb5">
+<meta http-equiv="origin-trial" content="ApgK7uQZfPulkoyRRZIrD44xIAuP3E5MxIBhujPhcnuqpRlrqA+kZ2ovxnfNj1EKMY8hr6hZal5RY+lX75b07goAAABqeyJvcmlnaW4iOiJodHRwczovL3d3dy5zZW1hdGV4dC5jb206NDQzIiwiZmVhdHVyZSI6Ik1lYXN1cmVNZW1vcnkiLCJleHBpcnkiOjE2MDYzOTMxNDQsImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://sematext.com/xmlrpc.php">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://sematext.com/wp-content/themes/sematext-next/inc/images/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://sematext.com/wp-content/themes/sematext-next/inc/images/apple-touch-icon.png">
+
+    <script type="text/javascript">
+        (function(e,r,n,t,s){var a=[];e[s]=function(){a.push(arguments)};e[s].queue=a;var o=[];var i=[];var c=true;var p=void 0;if(window.PerformanceObserver&&window.PerformanceObserver.supportedEntryTypes&&(  PerformanceObserver.supportedEntryTypes.indexOf("longtask")>=0||PerformanceObserver.supportedEntryTypes.indexOf("element")>=0)){p=new PerformanceObserver(function(e){e.getEntries().forEach(function(e){  switch(e.entryType){case"element":i.push(e);break;case"longtask":o.push(e);break;default:break}})});p.observe({entryTypes:["longtask","element"]})}e[s+"lt"]={longTasks:o,timingElements:i,inPageLoad:c,observer:p};if(t){var u=r.createElement(n);u.async=1;u.src=t;var f=r.getElementsByTagName(n)[0];f.parentNode.insertBefore(u,f)}})
+        (window,document,"script","//cdn.sematext.com/rum.js","strumTest");
+
+        (function(e,r,n,t,s){var a=[];e[s]=function(){a.push(arguments)};e[s].queue=a;var o=[];var i=[];var c=true;var p=void 0;if(window.PerformanceObserver&&window.PerformanceObserver.supportedEntryTypes&&(  PerformanceObserver.supportedEntryTypes.indexOf("longtask")>=0||PerformanceObserver.supportedEntryTypes.indexOf("element")>=0)){p=new PerformanceObserver(function(e){e.getEntries().forEach(function(e){  switch(e.entryType){case"element":i.push(e);break;case"longtask":o.push(e);break;default:break}})});p.observe({entryTypes:["longtask","element"]})}e[s+"lt"]={longTasks:o,timingElements:i,inPageLoad:c,observer:p};if(t){var u=r.createElement(n);u.async=1;u.src=t;var f=r.getElementsByTagName(n)[0];f.parentNode.insertBefore(u,f)}})
+        (window,document,"script",null,"strumUS");
+
+        window.STRUM_CONTEXTS = ['strumTest', 'strumUS'];
+        var receivers = [
+            'https://rum-receiver.apps.test.sematext.com',
+            'https://rum-receiver.sematext.com'
+        ];
+        strumTest('config', {
+            token: 'a49c4cca-a44d-4c11-9401-d5c32cfd556a',
+            receiverUrl: receivers[0],
+            ignoreOrigins: receivers,
+        });
+        strumUS('config', {
+            token: '3585e63f-9c1c-459c-a207-709923d61f53',
+            receiverUrl: receivers[1],
+            ignoreOrigins: receivers,
+        });
+    </script>
+
+
+	<!-- This site is optimized with the Yoast SEO plugin v14.0.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>10 Best Cassandra Monitoring Tools [2020 Review] - Sematext</title>
+	<meta name="description" content="Read detailed comparisons of the top tools you can use to monitor Apache Cassandra health, deliver the best performance, and avoid security incidents." />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://sematext.com/blog/cassandra-monitoring-tools/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="10 Best Cassandra Monitoring Tools [2020 Review] - Sematext" />
+	<meta property="og:description" content="Read detailed comparisons of the top tools you can use to monitor Apache Cassandra health, deliver the best performance, and avoid security incidents." />
+	<meta property="og:url" content="https://sematext.com/blog/cassandra-monitoring-tools/" />
+	<meta property="og:site_name" content="Sematext" />
+	<meta property="article:publisher" content="https://www.facebook.com/Sematext/" />
+	<meta property="article:published_time" content="2020-11-16T12:05:30+00:00" />
+	<meta property="article:modified_time" content="2020-11-16T12:35:26+00:00" />
+	<meta property="og:image" content="https://sematext.com/wp-content/uploads/2020/11/best-cassandra-monitorign-tools.jpg" />
+	<meta property="og:image:width" content="1493" />
+	<meta property="og:image:height" content="820" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@sematext" />
+	<meta name="twitter:site" content="@sematext" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<!-- Jetpack Site Verification Tags -->
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//rsms.me' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Sematext &raquo; Feed" href="https://sematext.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sematext &raquo; Comments Feed" href="https://sematext.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sematext &raquo; 10 Best Tools for Monitoring Apache Cassandra Comments Feed" href="https://sematext.com/blog/cassandra-monitoring-tools/feed/" />
+<link rel='stylesheet' id='selection-sharer-css'  href='https://sematext.com/wp-content/plugins/selection-sharer/css/selection-sharer.css?ver=0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://sematext.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.4' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='responsive-lightbox-swipebox-css'  href='https://sematext.com/wp-content/plugins/responsive-lightbox/assets/swipebox/swipebox.min.css?ver=2.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfront-notification-bar-css'  href='https://sematext.com/wp-content/plugins/wpfront-notification-bar/css/wpfront-notification-bar.css?ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='inter-ui-font-css'  href='https://rsms.me/inter/inter-ui.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='sparkling-bootstrap-css'  href='https://sematext.com/wp-content/themes/sparkling/inc/css/bootstrap.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='sparkling-icons-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://sematext.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.11' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://sematext.com/wp-content/themes/sparkling/style.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='https://sematext.com/wp-content/themes/sematext-next/style.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gamma-common-style-css'  href='https://sematext.com/wp-content/themes/sematext-next/inc/css/gamma-common.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='social-logos-css'  href='https://sematext.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://sematext.com/wp-content/plugins/jetpack/css/jetpack.css?ver=8.5' type='text/css' media='all' />
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sematext.com/wp-content/plugins/jetpack/_inc/build/related-posts/related-posts.min.js?ver=20191011'></script>
+<script type='text/javascript' src='https://sematext.com/wp-content/plugins/responsive-lightbox/assets/swipebox/jquery.swipebox.min.js?ver=2.2.2'></script>
+<script type='text/javascript' src='https://sematext.com/wp-content/plugins/responsive-lightbox/assets/infinitescroll/infinite-scroll.pkgd.min.js?ver=5.4.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activeGalleries":"1","animation":"1","hideCloseButtonOnMobile":"0","removeBarsOnMobile":"0","hideBars":"1","hideBarsDelay":"5000","videoMaxWidth":"1080","useSVG":"1","loopAtEnd":"0","woocommerce_gallery":"0","ajaxurl":"https:\/\/sematext.com\/wp-admin\/admin-ajax.php","nonce":"3038b88167"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sematext.com/wp-content/plugins/responsive-lightbox/js/front.js?ver=2.2.2'></script>
+<script type='text/javascript' src='https://sematext.com/wp-content/plugins/wpfront-notification-bar/jquery-plugins/jquery.c.js?ver=1.4.0'></script>
+<script type='text/javascript' src='https://sematext.com/wp-content/plugins/wpfront-notification-bar/js/wpfront-notification-bar.js?ver=1.7.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpp_params = {"sampling_active":"0","sampling_rate":"100","ajax_url":"https:\/\/sematext.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","ID":"51264","token":"d5700d8be1","debug":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sematext.com/wp-content/plugins/wordpress-popular-posts/assets/js/wpp-5.0.0.min.js?ver=5.1.0'></script>
+<script type='text/javascript' src='https://sematext.com/wp-content/themes/sematext-next/inc/js/intersection-observer.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='https://sematext.com/wp-content/themes/sparkling/inc/js/functions.min.js?ver=5.4.4'></script>
+<link rel='https://api.w.org/' href='https://sematext.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sematext.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sematext.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.4" />
+<link rel='shortlink' href='https://wp.me/p7iMwk-dkQ' />
+<link rel="alternate" type="application/json+oembed" href="https://sematext.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsematext.com%2Fblog%2Fcassandra-monitoring-tools%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://sematext.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsematext.com%2Fblog%2Fcassandra-monitoring-tools%2F&#038;format=xml" />
+       
+
+<!-- This site is optimized with the Schema plugin v1.7.8.1 - https://schema.press -->
+<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"TechArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/sematext.com\/blog\/cassandra-monitoring-tools\/"},"url":"https:\/\/sematext.com\/blog\/cassandra-monitoring-tools\/","headline":"10 Best Tools for Monitoring Apache...","datePublished":"2020-11-16T07:05:30-05:00","dateModified":"2020-11-16T07:35:26-05:00","publisher":{"@type":"Organization","@id":"https:\/\/sematext.com\/#organization","name":"Sematext","logo":{"@type":"ImageObject","url":"https:\/\/sematext.com\/wp-content\/uploads\/2018\/07\/sematext-logo.jpg","width":600,"height":60}},"image":{"@type":"ImageObject","url":"https:\/\/sematext.com\/wp-content\/uploads\/2020\/11\/best-cassandra-monitorign-tools.jpg","width":1493,"height":820},"articleSection":"Monitoring","description":"A large amount of data requires special tools. Apache Cassandra is one of those databases that can handle a large amount of data spread among many commodity servers, providing high availability and fault tolerance without a single point of failure. Developed under the umbrella of Apache Software Foundation, it","author":{"@type":"Person","name":"Rafal Kuć","url":"https:\/\/sematext.com\/blog\/author\/kucrafal\/","image":{"@type":"ImageObject","url":"https:\/\/secure.gravatar.com\/avatar\/d05d7fbddd69c91eefaad0b9ec624111?s=96&d=mm&r=g","height":96,"width":96}}}</script>
+
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//jetpack.wordpress.com'/>
+<link rel='dns-prefetch' href='//s0.wp.com'/>
+<link rel='dns-prefetch' href='//s1.wp.com'/>
+<link rel='dns-prefetch' href='//s2.wp.com'/>
+<link rel='dns-prefetch' href='//public-api.wordpress.com'/>
+<link rel='dns-prefetch' href='//0.gravatar.com'/>
+<link rel='dns-prefetch' href='//1.gravatar.com'/>
+<link rel='dns-prefetch' href='//2.gravatar.com'/>
+<style type='text/css'>img#wpstats{display:none}</style><link rel="shortcut icon" type="image/png" href="https://sematext.com/wp-content/themes/sematext-next/inc/images/favicon.png" />
+
+<!-- This site is optimized with the Schema plugin v1.7.8.1 - https://schema.press -->
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://sematext.com",
+                "name": "Home"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@id": "https://sematext.com/blog/",
+                "name": "Sematext Blog"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@id": "https://sematext.com/blog/cassandra-monitoring-tools/",
+                "name": "10 Best Tools for Monitoring Apache Cassandra",
+                "image": "https://sematext.com/wp-content/uploads/2020/11/best-cassandra-monitorign-tools.jpg"
+            }
+        }
+    ]
+}</script>
+
+			<style type="text/css" id="wp-custom-css">
+				.gdpr.gdpr-privacy-bar .gdpr-wrapper, .gdpr.gdpr-reconsent-bar .gdpr-wrapper {
+    max-width: 70%;
+    margin: 0 15%;
+}
+.gdpr.gdpr-privacy-bar .gdpr-wrapper .gdpr-content p, .gdpr.gdpr-reconsent-bar .gdpr-wrapper .gdpr-content p {
+    font-size: 12px;
+}
+.gdpr.gdpr-privacy-bar .gdpr-agreement, .gdpr.gdpr-reconsent-bar .gdpr-agreement {
+    background: #022638;
+}
+.gdpr.gdpr-privacy-bar .gdpr-preferences, .gdpr.gdpr-reconsent-bar .gdpr-preferences {
+    font-size: 12px;
+}
+.gdpr.gdpr-privacy-bar, .gdpr.gdpr-reconsent-bar {
+    background: rgb(20, 54, 71);
+}
+.gdpr.gdpr-privacy-bar .gdpr-wrapper, .gdpr.gdpr-reconsent-bar .gdpr-wrapper {
+    padding: 20px 10px;
+}
+
+#menu-item-7208 a:after {
+ font-family: fontawesome;
+ content: '\f0f2';
+ padding-left: 6px;
+}			</style>
+		
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-K47WKMR');
+    </script>
+    <!-- End Google Tag Manager -->
+
+<!-- Google Structured Data - Social Profile  https://developers.google.com/search/docs/data-types/social-profile-->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Sematext Group",
+  "url": "https://sematext.com",
+  "sameAs": [
+    "https://twitter.com/sematext",
+    "https://www.facebook.com/Sematext/",
+    "https://github.com/sematext",
+    "https://plus.google.com/+SematextGroup",
+    "https://www.linkedin.com/company/294493/"
+  ]
+}
+</script>
+
+
+    <!-- Hotjar Tracking Code for sematext.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1559295,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+</head>
+<body class="post-template-default single single-post postid-51264 single-format-standard group-blog">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K47WKMR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+<div id="page" class="hfeed site">
+
+    <header id="masthead" class="site-header" role="banner">
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+			<div class="container">
+				<div class="row">
+					<div class="site-navigation-inner">
+						<div class="navbar-header">
+							<button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+                            <div id="logo">
+								<a href="https://sematext.com/">
+                                    <img src="https://sematext.com/wp-content/themes/sematext-next/inc/images/sematext-logo.svg" alt="Sematext"/>
+                                </a>
+							</div>
+						</div>
+						<div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="menu-main-navigation" class="nav navbar-nav"><li id="menu-item-7185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7185 dropdown"><button title="Products" href="#" data-toggle="dropdown" class="dropdown-toggle">Products <span class="caret"></span></button>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-39760" class="menu-item menu-item-type-yawp_wim menu-item-object-yawp_wim menu-item-39760">				<div class="yawp_wim_wrap">
+					<div class="widget-area">
+						<div id="text-17" class="yawp_wim_widget widget_text">			<div class="textwidget"><div class="mm-v6">
+<div class="mm-v6-products">
+<ul class="mm-ul-products" role="menu">
+<li id="mm-cloud"><a title="Sematext Cloud" href="/cloud/"><strong>Sematext Cloud</strong><br />
+All-in-one monitoring solution: Metrics, Logs, User Analysis &amp; Tracing, finally together.</a></li>
+<li id="mm-enterprise"><a title="Sematext Enterprise" href="/enterprise/"><strong>Sematext Enterprise</strong><br />
+Run Sematext Cloud on your infrastructure</a></li>
+</ul>
+<ul class="mm-ul-aux" role="menu">
+<li id="mm-updates"><a title="Product Updates" href="/product-updates/">Product Updates</a></li>
+<li id="mm-docs"><a title="Sematext Docs" href="https://sematext.com/docs" target="_blank" rel="noopener noreferrer">Documentation</a></li>
+<li id="mm-pricing"><a title="Plans and Pricing" href="/pricing/">Plans &amp; Pricing</a></li>
+</ul>
+</div>
+<div class="mm-v6-solutions">
+<ul class="mm-ul-prods" role="menu">
+<li id="mm-logs"><a title="Logsene" href="/logsene/"><strong>Logs</strong><br />
+Hassle-free Log Management and analytics</a></li>
+<li id="mm-spm"><a title="Infrastructure Monitoring" href="/spm/"><strong>Infrastructure Monitoring</strong><br />
+Map and monitor your whole infrastructure in real-time</a></li>
+<li id="mm-experience"><a title="Real User Monitoring" href="/experience/"><strong>Experience</strong><br />
+Improve your customers&#8217; digital experience with Real User Monitoring</a></li>
+<li id="mm-synthetic"><a title="Synthetic Monitoring" href="/synthetic-monitoring/"><strong>Synthetic Monitoring</strong><br />
+Monitor performance and availability of your site and APIs</a></li>
+<li id="mm-tracing"><a title="APM / Tracing" href="/tracing/"><strong>Tracing</strong><br />
+Optimize end-to-end application performance</a></li>
+</ul>
+</div>
+<div class="mm-v6-capabilities">
+<h3>Main Capabilities</h3>
+<ul class="mm-ul-list" role="menu">
+<li><a title="APM" href="/apm/">Application Performance Monitoring</a></li>
+<li><a title="Server Monitoring" href="/server-monitoring/">Server Monitoring</a></li>
+<li><a title="Container Monitoring" href="/docker/">Container Monitoring</a></li>
+<li><a title="Process Monitoring" href="/process-monitoring/">Process Monitoring</a></li>
+<li><a title="Database Monitoring" href="/database-monitoring/">Database Monitoring</a></li>
+<li><a title="Network Monitoring" href="/network-monitoring/">Network Monitoring</a></li>
+<li><a title="Java Monitoring" href="/java-monitoring/">JVM Monitoring</a></li>
+<li><a title="Metrics and Logs" href="/metrics-and-logs/">Metrics and Logs</a></li>
+<li><a title="Inventory Monitoring" href="/inventory-monitoring/">Inventory Monitoring</a></li>
+<li><a title="Alerts" href="/alerts/">Alerts</a></li>
+<li><a title="Events" href="/events/">Events</a></li>
+<li><a title="Integrations" href="/integrations/">Integrations</a></li>
+<li><a title="API" href="/api/">API</a></li>
+</ul>
+</div>
+</div>
+</div>
+		</div>					</div>
+				</div>
+				</li>
+	<li id="menu-item-7189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7189"><a title="SPM &#8211; Infrastructure Pefrormance Monitoring" href="https://sematext.com/spm/"><span class="glyphicon SPM &#8211; Infrastructure Pefrormance Monitoring"></span>&nbsp;Infrastructure Monitoring</a></li>
+	<li id="menu-item-7187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7187"><a title="Logsene Log Management" href="https://sematext.com/logsene/">Logsene Log Management</a></li>
+	<li id="menu-item-9168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9168"><a title="Docker Agent" href="https://sematext.com/docker/">Docker Agent</a></li>
+	<li id="menu-item-36105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36105"><a title="Kubernetes Agent" href="https://sematext.com/kubernetes/">Kubernetes Agent</a></li>
+	<li id="menu-item-39771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39771"><a title="Sematext Cloud" href="https://sematext.com/cloud/">Sematext Cloud</a></li>
+	<li id="menu-item-9350" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9350"><a title="Logagent" href="https://sematext.com/logagent/">Logagent</a></li>
+</ul>
+</li>
+<li id="menu-item-48437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48437"><a title="Pricing" href="https://sematext.com/pricing/">Pricing</a></li>
+<li id="menu-item-41576" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41576 dropdown"><button title="Services" href="#" data-toggle="dropdown" class="dropdown-toggle">Services <span class="caret"></span></button>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-7190" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7190 dropdown"><a title="Consulting" href="#">Consulting</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-7191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7191"><a title="Consulting Overview" href="https://sematext.com/consulting/">Consulting Overview</a></li>
+		<li id="menu-item-7194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7194"><a title="Solr Consulting" href="https://sematext.com/consulting/solr/">Solr Consulting</a></li>
+		<li id="menu-item-7192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7192"><a title="Elasticsearch Consulting" href="https://sematext.com/consulting/elasticsearch/">Elasticsearch Consulting</a></li>
+		<li id="menu-item-7193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7193"><a title="Logging Consulting" href="https://sematext.com/consulting/logging/">Logging Consulting</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7196 dropdown"><a title="Support" href="#">Support</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-7197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7197"><a title="Support Overview" href="https://sematext.com/support/">Support Overview</a></li>
+		<li id="menu-item-7199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7199"><a title="Solr Support" href="https://sematext.com/support/solr-production-support/">Solr Support</a></li>
+		<li id="menu-item-7198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7198"><a title="Elasticsearch Support" href="https://sematext.com/support/elasticsearch-production-support/">Elasticsearch Support</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7200 dropdown"><a title="Training" href="#">Training</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-7201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7201"><a title="Training Overview" href="https://sematext.com/training/">Training Overview</a></li>
+		<li id="menu-item-7203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7203"><a title="Solr Training" href="https://sematext.com/training/solr/">Solr Training</a></li>
+		<li id="menu-item-7202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7202"><a title="Elasticsearch Training" href="https://sematext.com/training/elasticsearch/">Elasticsearch Training</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-7204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7204 dropdown"><button title="Resources" href="https://sematext.com/resources/" data-toggle="dropdown" class="dropdown-toggle">Resources <span class="caret"></span></button>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-45056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45056 dropdown"><a title="How to" href="#">How to</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-45059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45059"><a title="eBooks" href="https://sematext.com/resources/ebooks/">eBooks</a></li>
+		<li id="menu-item-45060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45060"><a title="Cheat Sheets" href="https://sematext.com/resources/cheat-sheets/">Cheat Sheets</a></li>
+		<li id="menu-item-45061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45061"><a title="Product Videos" href="https://sematext.com/resources/product-videos/">Product Videos</a></li>
+		<li id="menu-item-45062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45062"><a title="Slide Decks" href="https://sematext.com/resources/slide-decks/">Slide Decks</a></li>
+		<li id="menu-item-45063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45063"><a title="Publications" href="https://sematext.com/resources/publications/">Publications</a></li>
+	</ul>
+</li>
+	<li id="menu-item-46486" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-46486 dropdown"><a title="Docs" href="https://sematext.com/docs/">Docs</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-46487" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46487"><a title="Monitoring" href="https://sematext.com/docs/monitoring/">Monitoring</a></li>
+		<li id="menu-item-46488" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46488"><a title="Logs" href="https://sematext.com/docs/logs/">Logs</a></li>
+		<li id="menu-item-48070" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48070"><a title="Experience" href="https://sematext.com/docs/experience/">Experience</a></li>
+		<li id="menu-item-50380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50380"><a title="Synthetics" href="https://sematext.com/docs/synthetics/">Synthetics</a></li>
+		<li id="menu-item-46489" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46489"><a title="Tracing" href="https://sematext.com/docs/tracing/">Tracing</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7195" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children menu-item-7195 dropdown"><a title="Blog" href="https://sematext.com/blog/">Blog</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-49337" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49337"><a title="Real User Monitoring" href="https://sematext.com/category/monitoring/real-user-monitoring/">Real User Monitoring</a></li>
+		<li id="menu-item-49338" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49338"><a title="Logging" href="https://sematext.com/category/logging/">Logging</a></li>
+		<li id="menu-item-49339" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-49339"><a title="Monitoring" href="https://sematext.com/category/monitoring/">Monitoring</a></li>
+		<li id="menu-item-50102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50102"><a title="Synthetic Monitoring" href="https://sematext.com/category/synthetic-monitoring/">Synthetic Monitoring</a></li>
+		<li id="menu-item-49340" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49340"><a title="Training" href="https://sematext.com/category/training/">Training</a></li>
+		<li id="menu-item-49341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49341"><a title="Search" href="https://sematext.com/category/search/">Search</a></li>
+		<li id="menu-item-49342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49342"><a title="See all posts" href="https://sematext.com/blog/?grid=1">See all posts</a></li>
+	</ul>
+</li>
+	<li id="menu-item-45057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45057 dropdown"><a title="Why Sematext" href="#">Why Sematext</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-45064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45064"><a title="Case Studies" href="https://sematext.com/resources/case-studies/">Case Studies</a></li>
+		<li id="menu-item-45071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45071"><a title="Industry Comparisons" href="https://sematext.com/resources/industry-comparisons/">Industry Comparisons</a></li>
+	</ul>
+</li>
+	<li id="menu-item-45058" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45058 dropdown"><a title="Open Source Agents" href="#">Open Source Agents</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-45065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45065"><a title="Docker Agents" href="https://sematext.com/docker/">Docker Agents</a></li>
+		<li id="menu-item-45066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45066"><a title="Kubernetes Agents" href="https://sematext.com/kubernetes/">Kubernetes Agents</a></li>
+		<li id="menu-item-45067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45067"><a title="Logagent" href="https://sematext.com/logagent/">Logagent</a></li>
+	</ul>
+</li>
+	<li id="menu-item-47266" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-47266 dropdown"><a title="Guides" href="https://sematext.com/guides/">Guides</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-47265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47265"><a title="Log Management Guide" href="https://sematext.com/guides/log-management/">Log Management Guide</a></li>
+		<li id="menu-item-47783" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47783"><a title="Elasticsearch Guide" href="https://sematext.com/guides/elasticsearch/">Elasticsearch Guide</a></li>
+		<li id="menu-item-47784" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47784"><a title="Docker Logging Guide" href="https://sematext.com/guides/docker-logs/">Docker Logging Guide</a></li>
+		<li id="menu-item-47918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47918"><a title="Solr Guide" href="https://sematext.com/guides/solr/">Solr Guide</a></li>
+		<li id="menu-item-47940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47940"><a title="Real User Monitoring" href="https://sematext.com/guides/what-is-real-user-monitoring/">Real User Monitoring</a></li>
+		<li id="menu-item-48212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48212"><a title="Java Monitoring Guide" href="https://sematext.com/guides/java-monitoring/">Java Monitoring Guide</a></li>
+		<li id="menu-item-48523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48523"><a title="ELK Stack Guide" href="https://sematext.com/guides/elk-stack/">ELK Stack Guide</a></li>
+		<li id="menu-item-48908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48908"><a title="Application Performance Monitoring Guide" href="https://sematext.com/guides/application-performance-monitoring/">Application Performance Monitoring Guide</a></li>
+		<li id="menu-item-49271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49271"><a title="Kubernetes Logging Guide" href="https://sematext.com/guides/kubernetes-logging/">Kubernetes Logging Guide</a></li>
+		<li id="menu-item-49388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49388"><a title="Kubernetes Monitoring Guide" href="https://sematext.com/guides/kubernetes-monitoring/">Kubernetes Monitoring Guide</a></li>
+		<li id="menu-item-49770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49770"><a title="Synthetic Monitoring Guide" href="https://sematext.com/guides/synthetic-monitoring/">Synthetic Monitoring Guide</a></li>
+	</ul>
+</li>
+	<li id="menu-item-45484" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45484 dropdown"><a title="Most Popular" href="#">Most Popular</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-45485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45485"><a title="Elasticsearch DevOps Cheat Sheet" href="https://sematext.com/elasticsearch-devops-cheat-sheet/">Elasticsearch DevOps Cheat Sheet</a></li>
+		<li id="menu-item-45486" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45486"><a title="Elasticsearch Developer Cheat Sheet" href="https://sematext.com/resources/elasticsearch-developer-cheat-sheet/">Elasticsearch Developer Cheat Sheet</a></li>
+		<li id="menu-item-45489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45489"><a title="Solr Cheat Sheet" href="https://sematext.com/solr-cheat-sheet/">Solr Cheat Sheet</a></li>
+		<li id="menu-item-45507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45507"><a title="Kubernetes Cheat Sheet" href="https://sematext.com/kubernetes-cheat-sheet/">Kubernetes Cheat Sheet</a></li>
+		<li id="menu-item-45491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45491"><a title="Docker Commands Cheat Sheet" href="https://sematext.com/docker-commands-cheat-sheet/">Docker Commands Cheat Sheet</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-7205" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7205 dropdown"><button title="About" href="#" data-toggle="dropdown" class="dropdown-toggle">About <span class="caret"></span></button>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-7206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7206"><a title="Company" href="https://sematext.com/about/">Company</a></li>
+	<li id="menu-item-7210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7210"><a title="Customers" href="https://sematext.com/customers/">Customers</a></li>
+	<li id="menu-item-43967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43967"><a title="Case Studies" href="https://sematext.com/resources/case-studies/">Case Studies</a></li>
+	<li id="menu-item-7213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7213"><a title="Partners" href="https://sematext.com/partners/">Partners</a></li>
+	<li id="menu-item-43471" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43471"><a title="Testimonials" href="https://sematext.com/clients/#testimonials">Testimonials</a></li>
+	<li id="menu-item-7208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7208"><a title="Jobs" href="https://sematext.com/jobs/">Jobs</a></li>
+	<li id="menu-item-7212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7212"><a title="Engineering" href="https://sematext.com/engineering/">Engineering</a></li>
+	<li id="menu-item-7207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7207"><a title="Contact" href="https://sematext.com/contact/">Contact</a></li>
+	<li id="menu-item-49967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49967"><a title="Status" href="https://status.sematext.com/">Status</a></li>
+</ul>
+</li>
+<li id="menu-item-46020" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46020"><a title="See Live Demo" href="https://apps.sematext.com/demo">See Live Demo</a></li>
+<li id="menu-item-7326" class="btn btn-warning menu-item menu-item-type-custom menu-item-object-custom menu-item-7326"><a title="Start Free Trial" href="https://apps.sematext.com/ui/registration">Start Free Trial</a></li>
+<li id="menu-item-7327" class="btn btn-primary btn-outline menu-item menu-item-type-custom menu-item-object-custom menu-item-7327"><a title="Login" href="https://apps.sematext.com/ui/login/">Login</a></li>
+</ul></div>					</div>
+				</div>
+			</div>
+		</nav><!-- .site-navigation -->
+
+	</header><!-- #masthead -->
+
+
+
+	<div id="content" class="site-content">
+
+		<div class="top-section">
+								</div>
+
+		<div class="container-fluid main-content-area">
+<style media="screen">
+.hljs {
+    display: block;
+    overflow-x: auto;
+    background: #011a27;
+    line-height: 1.65;
+    white-space: inherit;
+}
+.hljs, .hljs-subst { color: #ccc; }
+.hljs-comment {
+    color: #777;
+    font-style: italic;
+}
+.hljs-keyword, .hljs-attribute, .hljs-selector-tag, .hljs-meta-keyword, .hljs-doctag, .hljs-name {
+    color: #fff;
+    font-weight: bold
+}
+.hljs-type, .hljs-string, .hljs-number, .hljs-selector-id, .hljs-selector-class, .hljs-quote, .hljs-template-tag, .hljs-deletion {
+    color: #09a;
+    font-weight: bold;
+}
+.hljs-title, .hljs-section {
+    color: #f70;
+    font-weight: bold
+}
+.hljs-regexp, .hljs-symbol, .hljs-variable, .hljs-template-variable, .hljs-link, .hljs-selector-attr, .hljs-selector-pseudo { color: #cc3 }
+.hljs-literal { color: #2586e4 }
+.hljs-built_in, .hljs-bullet, .hljs-code, .hljs-addition { color: #ff842c }
+.hljs-meta { color: #1f7199 }
+.hljs-meta-string { color: #4d99bf }
+.hljs-emphasis { font-style: italic }
+.hljs-strong { font-weight: bold }
+
+a#continue-conversation-twitter { line-height: 1.8 }
+a#continue-conversation-twitter:before {
+    content: '\f202';
+    font: normal 24px/1 'social-logos' !important;
+    display: inline-block;
+    padding: 5px 0 0 0;
+    margin: 0 8px 0 0;
+    position: relative;
+    top: 2px;
+}
+a#continue-conversation-twitter:active,
+a#continue-conversation-twitter:focus {
+    color: #fff;
+}
+
+#scroll-status-bar {
+    position: fixed;
+    height: 3px;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+}
+#scroll-status-percent {
+    height: 100%;
+    width: 0%;
+    background: rgb(30, 141, 232);
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, .1);
+    transition: width .25s ease-in-out;
+}
+</style>
+
+
+<div id="scroll-status-bar"><div id="scroll-status-percent"></div></div>
+
+
+<div class="blog-post-hero container-fluid">
+    <div class="blog-post-hero-bg">
+        <div class="blog-post-hero-bg-img" style="background-image: url(https://sematext.com/wp-content/uploads/2020/11/best-cassandra-monitorign-tools.jpg)"></div>
+    </div>
+    <div class="container"><img src="https://sematext.com/wp-content/uploads/2020/11/best-cassandra-monitorign-tools.jpg" id="the-featured-image" /></div>
+</div>
+
+<div class="container-fluid container-single-blog-post">
+<div class="container">
+
+
+        <article class="single-article-blog-post" id="post-51264">
+            <main>
+                <!-- Header -->
+                <header>
+                    <div class="blog-post-categories">
+                                                 <a href="https://sematext.com/category/monitoring/" rel="category tag">Monitoring</a>                    </div>
+
+                    <div class="blog-post-title">
+                        <h1 elementtiming="post-header">10 Best Tools for Monitoring Apache Cassandra</h1>
+                        <p><img src="https://secure.gravatar.com/avatar/d05d7fbddd69c91eefaad0b9ec624111?s=32&d=mm&r=g" srcset="https://secure.gravatar.com/avatar/d05d7fbddd69c91eefaad0b9ec624111?s=64&d=mm&r=g" 2x width="32" height="32" alt="Rafal Kuć" /> <span class="author vcard"><a class="url fn n" href="https://sematext.com/blog/author/kucrafal/">Rafal Kuć</a></span> on <span class="posted-on"><a href="https://sematext.com/blog/cassandra-monitoring-tools/" rel="bookmark"><time class="entry-date published" datetime="2020-11-16T07:05:30-05:00">November 16, 2020</time><time class="updated" datetime="2020-11-16T07:35:26-05:00">November 16, 2020</time></a></span></p>
+                    </div>
+                </header>
+
+                <nav id="toc-nav"></nav>
+
+                <section>
+                    <div id="the-content">
+                        <p>A large amount of data requires special tools. <a href="https://cassandra.apache.org/">Apache Cassandra</a> is one of those databases that can handle a large amount of data spread among many commodity servers, providing high availability and fault tolerance without a single point of failure. Developed under the umbrella of <a href="https://www.apache.org/" rel="nofollow">Apache Software Foundation</a>, it ensures full visibility into the code base and being free of charge. With the possibility of spreading the data across multiple data centers and asynchronous, masterless replication we get a workhorse that will handle whatever we throw at it.</p>
+<p>However, handling a large amount of data across different data centers spread across different geographical locations requires <a href="https://sematext.com/blog/monitoring-alerting/">good monitoring</a>. Monitoring that will provide the holistic visibility into the cluster, the read and writes, companions, and caches. Monitoring, in which you won&#8217;t have to use multiple tools to get Cassandra metrics, <a href="https://sematext.com/server-monitoring/">operating system metrics</a>, and <a href="https://sematext.com/java-monitoring/">JVM metrics</a>. One that ensures the ease of shipping not only metrics themselves but also logs. Finally, one that allows you to take action on the data, providing <a href="https://sematext.com/alerts/">real-time alerting</a> and notification mechanisms.</p>
+<p>Keeping the above in mind, let&#8217;s have a look at the <strong>critical <a href="https://cassandra.apache.org/">Cassandra</a> metrics</strong> you should measure and the <strong>best monitoring tools available.</strong></p>
+<h2>Key Cassandra Performance Metrics</h2>
+<p>The most complex, distributed systems provide a set of metrics that you should take care of, monitor, and alert on to ensure that your system is healthy and working well. Apache Cassandra is no different. It provides a plethora of metrics which we can divide into three categories:</p>
+<ul>
+<li>Dedicated Apache Cassandra metrics that describe how the system and its parts perform.</li>
+<li><a href="https://sematext.com/guides/java-monitoring/#jvm-performance-critical-metrics-to-monitor">Java Virtual Machine metrics</a> that tell you about the execution environment on which Apache Cassandra is running.</li>
+<li><a href="https://sematext.com/server-monitoring/">Operating system metrics</a> describing the metrics related to the bare metal servers, virtual machines, or containers, depending on the environment that you are using.</li>
+</ul>
+<h3>Dedicated Cassandra Metrics</h3>
+<p>The first thing that you should take care of for good <a href="https://sematext.com/integrations/cassandra-monitoring/">Apache Cassandra monitoring</a> are the metrics that the distributed data store is exposing via the JMX interface. There are a lot of metrics exposed in the JMX and having visibility into most of them is a good idea. You never know what can be useful when troubleshooting. Still, let&#8217;s look at some of the key Cassandra performance metrics.</p>
+<h4>Nodes</h4>
+<p>One of the most important metrics is the <strong>number of nodes</strong> that are currently available and connected to form a cluster. The ability to store the data and respond to queries is directly related to the availability of nodes.</p>
+<h4>Compaction</h4>
+<p><a href="https://cassandra.apache.org/doc/latest/operating/compaction/index.html">Compaction</a> is the operation of <strong>merging multiple smaller</strong> instances of <a href="https://cassandra.apache.org/doc/latest/architecture/storage_engine.html#sstables">SSTable</a> into one bigger SSTable. Because of that, it can be <strong>very expensive</strong> and <strong>resource consuming</strong>. Having visibility into compaction performance is critical for long term observability &#8211; the Cassandra monitoring solution of your choice really needs to provide the number of compactions and the number of compacted bytes.</p>
+<h4>Read and Write</h4>
+<p>The next set of metrics is dedicated to <strong>clients</strong> and the <strong>read and write</strong> side of the operations. The <strong>number of reads</strong> that are happening in a given period, the request latency, and the number of timeouts and failures should be measured. Your observability solution should be able to provide not only the top-level view but also allow for slicing and dicing through the data showing you the aggregated view, per node view, per keyspace view, and per table view. The same goes for write operations. You should be able to see the <strong>number of write</strong> requests happening and write latency. Local writes and reads may also be important when troubleshooting. Keep those metrics in mind when choosing your monitoring solution.</p>
+<h4>Table Metrics</h4>
+<p><strong>Table metrics</strong> are also very important. Partition size is crucial when it comes to performance. These metrics are used as a unit of data storage, replication, and retrieval thus directly dictating the performance of your Cassandra tables. When it comes to table metrics, tombstone related metrics are also important. <a href="https://cassandra.apache.org/doc/latest/operating/compaction.html#tombstones-and-garbage-collection-gc-grace">Tombstones</a> are produced when you delete the data, because of the immutability of the <strong>SSTable</strong> and can be physically removed only during compactions. Because of that, you should keep an eye on how they affect your disk space.</p>
+<h4>Other Metrics</h4>
+<p>As we mentioned earlier, other Apache Cassandra metrics can be helpful and you should consider monitoring them. Those include, but are not limited to:</p>
+<ul>
+<li>Caches &#8211; key cache and row cache requests and the hit ratio</li>
+<li>Bloom filter space used and false positives ratio</li>
+<li>Threadpool metrics</li>
+</ul>
+<h3>Java Virtual Machine Metrics</h3>
+<p><a href="https://cassandra.apache.org/">Apache Cassandra</a> is a <a href="https://sematext.com/java-monitoring/">JVM</a> based application which comes with all the usual JVM pros and cons. From the developer perspective, memory management is easier and requires less hassle &#8211; you just use an object and forget about it letting the JVM do the cleaning up. But that means that something has to clean up all the unused objects in memory. This is where the <a href="https://sematext.com/blog/java-garbage-collection/">Java GC</a> comes in and the metrics that come with it. The proper <a href="https://sematext.com/integrations/cassandra-monitoring/">Cassandra monitoring tool</a> should provide metrics allowing to check and troubleshoot issues with the JVM, such as <a href="https://sematext.com/guides/java-monitoring/#jvm-performance-critical-metrics-to-monitor">JVM memory utilization and garbage collection count and time</a>.</p>
+<h3>Operating System Metrics</h3>
+<p>Cassandra is architectured and developed to write a lot of data to the storage in a very short time. You need to keep an eye on the disk usage. Also account for compactions. <strong>Compaction</strong> is a process of merging multiple instances of <strong>SSTable</strong> and creating a single one, that is larger and contains all the data from the smaller tables. Keep in mind that until the compaction process ends the total disk space used maybe double that before the compaction. Because of that, you should consider leaving about 50% of space free to account for compactions and of course set up appropriate alerts.</p>
+<p>The second operating system metric that you should keep an eye on is CPU utilization. The more spare CPU cycles you have the more data you can process on a single node and the more queries that node can handle. What&#8217;s more, the CPU cycles are also needed for garbage collection done by the JVM.</p>
+<h2>Top 10 Tools to Monitor Apache Cassandra</h2>
+<p>Now that we know what are the metrics that we should be measuring and on which we should set up the alerts, let&#8217;s look at some of the <strong>best Cassandra monitoring solutions</strong> that provide such features.</p>
+<h3>1. Sematext</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-06.png" /></p>
+<p><a href="https://sematext.com/cloud/">Sematext Cloud</a> and its on-premise version &#8211; <a href="https://sematext.com/enterprise/">Sematext Enterprise</a> &#8211; is a full-stack monitoring solution that is easy to set up and that gives you in-depth visibility into your IT infrastructure. <a href="https://sematext.com/integrations/cassandra-monitoring/">Apache Cassandra monitoring</a> makes no exception. Sematext platform provides full visibility into your <a href="https://sematext.com/docs/integration/cassandra/#metrics">Cassandra metrics</a>, <a href="https://sematext.com/docs/integration/jvm/#metrics">JVM metrics</a>, and Operating System metrics. It doesn&#8217;t matter what platform you are running on &#8211; whether it is <a href="https://sematext.com/server-monitoring/">bare metal</a>, <a href="https://sematext.com/server-monitoring/">virtual machine</a>, or <a href="https://sematext.com/docker/">orchestrated environment</a>. Combining that with powerful alerting with anomaly detection supporting a large number of notification destinations gives a powerful observability platform that will provide you a great experience for your Apache Cassandra clusters monitoring.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>The <a href="https://sematext.com/docs/monitoring/autodiscovery/">auto-discovery of services</a> enables hands-off auto-monitoring for your Apache Cassandra clusters.</li>
+<li>Comprehensive support for microservices and containerized environments &#8211; support for <a href="https://sematext.com/kubernetes/">Kubernetes</a>, <a href="https://sematext.com/docker/">Docker</a>, and Docker Swarm with the ability to observe Apache Cassandra running in them, too; a collection of their metrics, logs, and events.</li>
+<li><a href="https://sematext.com/network-monitoring/">Network</a>, <a href="https://sematext.com/database-monitoring/">database</a>, <a href="https://sematext.com/process-monitoring/">processes</a>, and <a href="https://sematext.com/inventory-monitoring/">inventory monitoring</a> in addition to Apache Cassandra metrics providing full visibility into the environment.</li>
+<li><a href="https://sematext.com/docs/alerts/">Alerting</a> with anomaly detection and support for external notification services like PagerDuty, OpsGenie, VictorOps, WebHooks, etc.</li>
+<li>Powerful dashboarding capabilities for graphing virtually any data shipped to Sematext.</li>
+<li>Scheduled reporting.</li>
+<li>Full-blown <a href="https://sematext.com/logsene/">log management</a> solution with filtering, full-text search, alerting, scheduled reporting, AWS S3, Google Cloud, Azure IBM Cloud, Digital Ocean,and MinIO archiving integrations, Elasticsearch-compatible API, and Syslog support giving you the possibility of shipping not only Apache Cassandra metrics, but logs as well.</li>
+</ul>
+<p>To start monitoring the only thing you need to do is install the agent in your environment by following the on-screen instructions. No matter if it is bare-metal, virtual machine, or container. You end up getting metrics for Apache Cassandra and the hardware it is running on &#8211; for example, the container that Apache Cassandra is running with. After that, you end up with out-of-the-box reports for each crucial group of metrics. Quick and easy &#8211; more or less a no-brainer.</p>
+<p><strong>Pricing:</strong></p>
+<p>The <a href="https://sematext.com/pricing/">pricing</a> depends on the number of monitored hosts or containers. Metrics monitoring is flexible and metered by the hour which makes it suitable for dynamic environments that scale up and down. You only pay for what you&#8217;ve used. Logs pricing depends on the volume and retention with a per-GB volume discount as your log volume or data retention goes up. A limited free plan is available for both metrics and logs with paid plans starting at $19/month for metrics and $50/month for logs.</p>
+<hr />
+<h3>2. New Relic Cassandra Monitoring</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-07.png" /></p>
+<p>Source: www.newrelic.com</p>
+<p><a href="https://newrelic.com/" rel="nofollow">New Relic</a> as an end-to-end observability solution providing Apache Cassandra integration is available in a software-as-a-service model. Its monitoring capabilities include crucial database, JVM, operating system metrics along with the inventory data for full visibility into the cluster, and the execution environment. Combined with alerts and New Relic Query Language the platform provides everything that is needed to have everything Apache Cassandra related under control.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><a href="https://newrelic.com/products/application-monitoring" rel="nofollow">Application Performance Monitoring</a> with dashboarding and full Apache Cassandra support.</li>
+<li><a href="https://newrelic.com/products/logs" rel="nofollow">Log centralization</a> and analysis allowing you to send not only Apache Cassandra metrics, but logs as well.</li>
+<li>Integrated alerting with anomaly detection.</li>
+<li>Rich and powerful query language &#8211; NRQL.</li>
+<li>Integration with most known cloud providers such as AWS, Azure, and Google Cloud Platform makes it easy to monitor Apache Cassandra on common platforms.</li>
+</ul>
+<p>The installation is quite simple and requires you to follow the <a href="https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/cassandra-monitoring-integration" rel="nofollow">instructions</a> depending on the environment in Apache Cassandra is working. If you are running an orchestrated environment you will end up modifying a <a href="https://docs.newrelic.com/docs/integrations/kubernetes-integration/link-apps-services/monitor-services-running-kubernetes" rel="nofollow">few YAML files</a>, but it is not a very complicated step. If New Relic becomes your platform of choice just follow the documentation carefully and you shouldn&#8217;t have any issues.</p>
+<p><strong>Pricing:</strong></p>
+<p>User and data based pricing available (<a href="https://newrelic.com/pricing" rel="nofollow">pricing</a>). The user type (Standard, Pro, Enterprise) determines the available features and the amount of data you can send without additional fee. For example, the Standard plan includes up to 5 <a href="https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-users/new-relic-one-user-model" rel="nofollow">users with full access</a> and unlimited number of <a href="https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-users/new-relic-one-user-model" rel="nofollow">basic users</a> without the access to features such as APM, infrastructure monitoring, Synthetics, Serverless monitoring, and more.</p>
+<hr />
+<h3>3. Datadog Apache Cassandra Monitor</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-03.jpg" /></p>
+<p>Source: www.datadoghq.com</p>
+<p><a href="https://www.datadoghq.com/" rel="nofollow">Datadog</a> is a full-stack monitoring tool for your Apache Cassandra clusters as well as an extended set of features needed to monitor your infrastructure, applications, containers, network, and logs. After adjusting the agent configuration you will be able to use the relevant database, JVM, and operating system metrics for graphing and correlations.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Apache Cassandra Application performance monitoring with a large number of additional integrations available and distributed tracing support.</li>
+<li><a href="https://www.datadoghq.com/product/log-management/" rel="nofollow">Logs centralization</a> and analysis allowing you to ship Cassandra logs and correlate them with metrics.</li>
+<li><a href="https://www.datadoghq.com/product/network-performance-monitoring/" rel="nofollow">Network</a> and host monitoring.</li>
+<li>Alerting with machine learning capabilities.</li>
+<li><a href="https://www.datadoghq.com/product/#collaboration" rel="nofollow">Collaboration tools</a> for team-based discussions simplifying the handling of multiple large clusters.</li>
+<li>API allowing to work with the data, tags, and dashboards.</li>
+</ul>
+<p>All that is needed is installing the DataDog agent. If you already have the agent installed you are good to go, if you don&#8217;t just download the agent package and follow the instructions. The only thing to keep in mind is that the default limit is 350 metrics per monitored instance. So you may end up being forced to contact DataDog support when you need to collect more metrics or limit the JMX metrics collection in the <a href="https://docs.datadoghq.com/integrations/java/?tab=host" rel="nofollow">DataDog JMX agent configuration</a>. You can also automatically gather Apache Cassandra logs if you want to have full visibility into the distributed database.</p>
+<p><strong>Pricing:</strong></p>
+<p>Feature, host, and volume-based <a href="https://www.datadoghq.com/pricing/" rel="nofollow">pricing</a> combined &#8211; each part of the solution is priced differently that can be billed annually or on-demand. The on-demand billing makes the solution about 17 &#8211; 20% more expensive than the annual pricing at the time of this writing.</p>
+<hr />
+<h3>4. ManageEngine Applications Manager</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-01.png" /></p>
+<p>Source: www.manageengine.com</p>
+<p><a href="https://www.manageengine.com/products/applications_manager/" rel="nofollow">ManageEngine Applications Manager</a> is a single, integrated application performance monitoring for infrastructure and applications including Apache Cassandra. It supports various infrastructure architecture like bare metal, virtual machines, and containers and includes a wide variety of application integrations. All of that combined with actionable alarms and powerful reporting gives a proper observability solution for your Apache Cassandra and the whole infrastructure.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Apache Cassandra application performance monitoring with a large number of additional integrations available.</li>
+<li>Alerting engine with notifications support.</li>
+<li>Docker and Kubernetes integrations making it easy to monitor Cassandra running in different environments.</li>
+<li>Support for Apache Cassandra metrics when running on common cloud providers like Amazon Web Services, Microsoft Azure, Google Cloud Platform, and OpenStack.</li>
+</ul>
+<p>Adding monitoring of Apache Cassandra requires creating a monitoring link with Cassandra type and providing the location on which the database is running and the JMX port which exposes the metrics. We can choose to monitor a single instance of our database or by default discover all the nodes forming the cluster and tell the platform to which monitoring group the data should be assigned to. Once that is done the metrics should be present in the dedicated section of the platform providing the metrics. You can learn which metrics are monitored by looking at the <a href="https://www.manageengine.com/products/applications_manager/help/cassandra-database-servers.html" rel="nofollow">official documentation</a>.</p>
+<p><strong>Pricing:</strong></p>
+<p>ManageEngine Applications Manager comes in two versions &#8211; Professional and Enterprise and the <a href="https://store.manageengine.com/applications_manager/#tab" rel="nofollow">pricing</a> depends on the selected version, the number of monitors, and the number of users that will be using the product with the free version available.</p>
+<hr />
+<h3>5. AppDynamics APM</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-02.png" /></p>
+<p>Source: www.appdynamics.com</p>
+<p>AppDynamics is focused on large enterprises. Available in both software as a service and an on-premise model <a href="https://www.appdynamics.com/" rel="nofollow">AppDynamics</a> provides the ability to connect Apache Cassandra application performance metrics with infrastructure data, alerting, and <a href="https://www.appdynamics.com/product/business-iq" rel="nofollow">business-level metrics</a>. A combination of these allows you to monitor not only Apache Cassandra, but the whole stack that runs your services. It gives you insights into your environment &#8211; from top-level transactions that are understood by the business executives to the code-level information useful for DevOps and developers.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Apache Cassandra monitoring with visibility from top-level transactions to the backend calls.</li>
+<li>Infrastructure monitoring with network components, databases, and servers visibility providing information about status, utilization, and flow between each element.</li>
+<li>Machine Learning supported anomaly detection and root cause analysis features.</li>
+<li>Alerting with email templating and period digest capabilities.</li>
+</ul>
+<p>To enable Apache Cassandra in your already installed AppDynamics Machine Agent or the Server Infrastructure &amp; Monitoring you will need an extension. It requires a few manual steps but is pretty well documented in <a href="https://www.appdynamics.com/community/exchange/extension/cassandra-monitoring-extension/" rel="nofollow">AppDynamics documentation</a>. After all is done, you get a nice view over your Apache Cassandra metrics along with all other already monitored metrics. You can also follow the in UI steps with easy installation and configuration instructions. One thing to keep in mind, though not a blocker &#8211; the UI didn&#8217;t load for me correctly when using Mozilla Firefox, though Chrome worked without any issues.</p>
+<p><strong>Pricing:</strong></p>
+<p>Agent and feature-based <a href="https://www.appdynamics.com/pricing" rel="nofollow">pricing</a> are used which makes pricing really not transparent. The amount of money you will pay for the solution depends on what features you need and want to use from the platform. For example, visibility into the CPU, memory, and disk metrics which are crucial for Apache Cassandra requires the APM Advanced plan.</p>
+<hr />
+<h3>6. Dynatrace</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-04.png" /></p>
+<p>Source: www.dynatrace.com</p>
+<p><a href="http://www.dynatrace.com" rel="nofollow">Dynatrace</a> is a full-stack observability solution with support for Apache Cassandra. It provides a user-friendly approach to monitoring your database, infrastructure, and logs. Available in both software as a service and on-premise models it will fulfill most of your monitoring needs when it comes to Apache Cassandra performance monitoring, its logs, and the infrastructure it is running on.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Apache Cassandra performance monitoring with dashboarding and additional integrations for commonly used tools and code-level tracing.</li>
+<li>First-class <a href="https://www.dynatrace.com/platform/log-monitoring/" rel="nofollow">Log analysis</a> support with automatic detection of the common system and application log types.</li>
+<li>Diagnostic tools allow taking memory dumps, exceptions, and CPU analysis helpful in Apache Cassandra troubleshooting.</li>
+<li>Docker, Kubernetes, and OpenShift integrations making it easy to monitor Cassandra running in different environments.</li>
+<li>Support for Apache Cassandra metrics when running on common cloud providers like Amazon Web Services, Microsoft Azure, and Google Cloud Platform.</li>
+</ul>
+<p>Once you have the Dynatrace OneAgent installed on a host or multiple hosts, enabling monitoring of Apache Cassandra JMX metrics is as simple as turning on one of the switches in the appropriate settings section. After that, all your Apache Cassandra clusters will be monitored and you&#8217;ll be able to see all the relevant metrics in the dedicated technology</p>
+<p><strong>Pricing:</strong></p>
+<p>Pricing is organized around features. The application performance monitoring pricing is tied to hosts and the amount of memory available on a host. Each 16GB is a host unit and the price is calculated based on the number of host units in an hour. The logs part of the solution is calculated based on the volume.</p>
+<hr />
+<h3>7. SolarWinds Server &amp; Application Monitor</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-05.png" /></p>
+<p>Source: www.solarwinds.com</p>
+<p><a href="https://www.solarwinds.com/server-application-monitor" rel="nofollow">SolarWinds Server &amp; Application Monitor</a> provides monitoring of Apache Cassandra clusters for those of us who would like to run an on-premise monitoring solution on Microsoft Windows. It provides visibility into Apache Cassandra metrics along with Windows and Linux metrics depending on the environment of your choice. With alerting supported out-of-the-box and dashboarding capabilities the solution is a good candidate for monitoring not only Apache Cassandra but the whole environment.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Microsoft Windows-based platform for your environment including Apache Cassandra</li>
+<li>Out of the box alerting for keeping an eye on your Cassandra metrics</li>
+<li>Easy integration with Microsoft Windows-based services, like Active Directory or IIS</li>
+</ul>
+<p><strong>Pricing:</strong></p>
+<p><a href="https://www.solarwinds.com/server-application-monitor" rel="nofollow">Subscription and perpetual licensing</a> possible starting at $1,275 with a 30-days free trial available.</p>
+<hr />
+<h3>8. Prometheus &amp; Grafana</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-09.png" /></p>
+<p>Powerful open-source combo &#8211; <a href="https://prometheus.io/" rel="nofollow">Prometheus</a> and <a href="https://grafana.com/" rel="nofollow">Grafana</a> combine great flexibility with backend providing monitoring for metrics that are not only dedicated to Apache Cassandra. Powerful query language allows retrieving the data and powering the built-in alerting functionality. With a plethora of integration configurations available for both Prometheus and Grafana, it is easy to build an observability platform for the whole environment. However, keep in mind that an initial setup and configuration step &#8211; as well as ongoing upgrades, maintenance, etc. &#8211; will be required and may be time-consuming and thus costly, especially if you are not familiar with the tools.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Datastore implementing a highly dimensional data store allowing you to gather every Apache Cassandra metric that you can think of.</li>
+<li>A large number of available integrations maintained by the creators and community helping in setting up monitoring for Apache Cassandra and more.</li>
+<li>Out of the box alerting based on powerful Prometheus query language to alert on virtually any metrics related to Apache Cassandra.</li>
+<li>Efficient time-series storage.</li>
+<li>Great visualizations flexibility allowing you to graph data that is of interest.</li>
+</ul>
+<p>Installing Prometheus and Grafana was straight forward with downloading the Prometheus and Grafana packages followed by straight forward configuration. The only thing that was needed in addition to that was the exporter configuration and Java Agent jar, but those are publicly available. Once that is done you can use the pre-created Grafana dashboards, so you can go straight to the metrics and explore them in an organized fashion.</p>
+<p><strong>Pricing:</strong></p>
+<p>Free, but requires you to pay the price of maintenance and storage for your metrics.</p>
+<hr />
+<h3>9. Zabbix</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-10.jpg" /></p>
+<p><a href="https://www.zabbix.com/" rel="nofollow">Zabbix</a> is an open-sourced tool capable of real-time monitoring of Apache Cassandra with a proper extension template. It&#8217;s well known and will not only give you your database monitoring, but is also suited as a monitoring solution from large scale enterprises and small companies. If you are looking for a solution with a large community, well supported, and free of charge you should look at Zabbix. Its multi-system agents allow you to gather key performance indicators across your environment and create alerts on them. With the template-based setup and auto-discovery you can speed up even the largest setups.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li><a href="https://www.zabbix.com/features#problem_detection" rel="nofollow">Problem detection</a> and prediction mechanism with flexible thresholds and severity levels defining their importance helping</li>
+<li>Multi-lingual, multi-tenant, flexible UI with <a href="https://www.zabbix.com/features#visualization" rel="nofollow">dashboarding</a> capabilities and geolocation support for large organizations with data centers spread around the world perfectly suitable for multiple Apache Cassandra clusters spread around multiple datacenters.</li>
+<li>Support for adjustable <a href="https://www.zabbix.com/features#notification" rel="nofollow">notifications</a> with out of the box support for email, SMS, Slack, Hipchat and XMPP and escalation workflow.</li>
+<li>Template-based host management and <a href="https://www.zabbix.com/features#auto_discovery" rel="nofollow">auto-discovery</a> for monitoring large environments and suitable for dynamically changing Apache Cassandra environments.</li>
+</ul>
+<p>When installing and configuring Zabbix I was reminded of the good old times of installing and running Apache with PHP and MySQL. I had to take care of each piece of required software and include additional templates to fetch metrics for Cassandra. Keep that in mind when choosing Zabbix as the solution.</p>
+<p><strong>Pricing:</strong></p>
+<p>Zabbix is open-sourced and free. You can subscribe for support, consultancy, and training around it though if you would like to quickly and efficiently extend your knowledge about the platform.</p>
+<hr />
+<h3>10. Graphite &amp; Grafana</h3>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dozyload"  data-src="https://sematext.com/wp-content/uploads/2020/11/cassandra-monitoring-tools-09.png" /></p>
+<p><a href="https://graphiteapp.org/" rel="nofollow">Graphite</a> and <a href="https://grafana.com/" rel="nofollow">Grafana</a> is another open-source monitoring combo combining providing great flexibility with the backend for measuring metrics from Apache Cassandra and more. You can use out-of-the-box Graphite UI, but if you prefer Grafana may be the UI of choice and give you even more possibilities and graphing options. Similar to Prometheus and Grafana, it is easy to build an observability platform for the whole environment with multiple solutions supporting Graphite as the metrics storage. Keep in mind that an initial setup and configuration step will be required and may be time-consuming.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Efficient time-based datastore allowing you to gather every Apache Cassandra metric that you can think of.</li>
+<li>A large number of available integrations helping in setting up monitoring for Apache Cassandra and more.</li>
+<li>Alerting based on Grafana functionality.</li>
+<li>Great visualizations flexibility allowing you to graph data that is of interest.</li>
+</ul>
+<p>Similar to Zabbix, Graphite required a bit of work when it came to installation and configuration, but once I got it to work everything I needed was there. The additional plus is that Grafana supports Graphite as the source for the metrics, so not only I got a very efficient metrics storage, but also modern and flexible software for building out dashboards that I needed.</p>
+<p><strong>Pricing:</strong></p>
+<p>Free, but requires you to pay the price of maintenance and storage for your metrics.</p>
+<h2>Get Started with Cassandra Monitoring</h2>
+<p>Apache Cassandra isn&#8217;t a simple system. It is a complicated distributed database capable of handling large quantities of data without having a single point of failure and being fault-tolerant. It is designed to spread data across multiple data centers spread across different geographical locations. Such software requires special treatment and you need a good observability solution to be able to monitor its activity.</p>
+<p>You want to be sure you have each crucial metric under control. Your platform needs to provide out-of-the-box alerting working in real-time so that you are notified about issues as soon as they start happening before your users notify the degradation of the service. Finally, choose a tool that will provide you monitoring not only for your Apache Cassandra but your whole <a href="https://sematext.com/integrations">infrastructure and software stack</a>. Not only when it comes to metrics, but logs, real user monitoring, and so on. You want to be able to <a href="https://sematext.com/docs/guide/split-screen/">correlate everything</a> in one place, so you should keep that in mind when choosing the best Cassandra monitoring tool for your organization.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-51264" class="share-twitter sd-button share-icon" href="https://sematext.com/blog/cassandra-monitoring-tools/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-51264" class="share-facebook sd-button share-icon" href="https://sematext.com/blog/cassandra-monitoring-tools/?share=facebook" target="_blank" title="Click to share on Facebook"><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-51264" class="share-linkedin sd-button share-icon" href="https://sematext.com/blog/cassandra-monitoring-tools/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://sematext.com/blog/cassandra-monitoring-tools/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://sematext.com/blog/cassandra-monitoring-tools/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>You might also like</em></h3>
+</div>                    </div>
+
+                                        <div id="twitter-button">
+                        <p class="text-center"><a href="https://twitter.com/sematext" id="continue-conversation-twitter" class="g-btn-primary">Continue the conversation</a></p>
+                    </div>
+                </section>
+
+                <aside>
+                    <div class="aside-blog-content">
+                        <div id="related-content"><!-- ... --></div>
+                        <div class="write-to-us">
+                            <p><strong>Do you have a cool story to share?</strong></p>
+                            <p><a href="/contact/">Write for us</a></p>
+                        </div>
+                    </div>
+                </aside>
+            </main>
+            <footer>
+                <div id="alternative-sharing-block"><!-- ... --></div>
+            </footer>
+        </article>
+
+
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.6/build/highlight.min.js" charset="utf-8"></script>
+<script>
+function _fiColor() {
+
+    function _rgbToHex(rgb) {
+        function cHex(c) {
+            let _hex = c.toString(16);
+            return _hex.length == 1 ? "0" + _hex : _hex;
+        }
+        return "#" + cHex(rgb.r) + cHex(rgb.g) + cHex(rgb.b);
+    }
+
+    let _canvas = document.createElement('canvas');
+    let _context = _canvas.getContext && _canvas.getContext('2d');
+    let _rgb = { r:0, g:0, b:0 };
+
+    let _fi = document.querySelector('#the-featured-image');
+    let _height = _canvas.height = _fi.naturalHeight || _fi.offsetHeight || _fi.height;
+    let _width = _canvas.width = _fi.naturalWidth || _fi.offsetWidth || _fi.width;
+
+    let _xhr = new XMLHttpRequest();
+
+        _xhr.open('GET', _fi.src);
+        // _xhr.open('GET', 'https://cors-anywhere.herokuapp.com/' . _fi.src);
+        _xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        _xhr.responseType = "blob";
+        _xhr.onload = function() {
+
+            let _urlCreator = window.URL || window.webkitURL;
+            let _imgUrl = _urlCreator.createObjectURL( _xhr.response );
+
+            let _img = new Image();
+                _img.onload = function() {
+
+                    let _sampleSize = 20;
+                    _context.drawImage(_img, 0, 0, _width, _height);
+
+                    let _data = _context.getImageData(0, 0, _sampleSize, _sampleSize);
+                    let _length = _data.data.length;
+                    let _counter = 0;
+                    let _pixelJump = 1;
+                    let _i = -4;
+                    while ( (_i += _pixelJump * 4) < _length ) {
+                        ++_counter;
+                        _rgb.r += _data.data[_i];
+                        _rgb.g += _data.data[_i+1];
+                        _rgb.b += _data.data[_i+2];
+                    }
+
+                    _rgb.r = ~~(_rgb.r/_counter);
+                    _rgb.g = ~~(_rgb.g/_counter);
+                    _rgb.b = ~~(_rgb.b/_counter);
+
+                    document.querySelector('.blog-post-hero-bg').style.background = _rgbToHex(_rgb);
+                    document.querySelector('.blog-post-hero-bg-img').classList.add('fadeout');
+
+                }
+                _img.src = _imgUrl;
+                _img.onerror = function() { console.log("Error loading image"); };
+
+        };
+        _xhr.send();
+}
+
+function _highlighter() {
+
+    var _pre = document.querySelectorAll('pre');
+        _pre = Array.from(_pre);
+        _pre.forEach(function(el) {
+
+            var _current = el.innerHTML;
+            var _code = document.createElement('code');
+                _code.innerHTML = _current;
+
+            el.innerHTML = '';
+            el.appendChild(_code);
+
+            hljs.highlightBlock(_code);
+        });
+}
+
+function _scrollBar() {
+
+    var _scrolled = Math.round((
+        (document.body.scrollTop || document.documentElement.scrollTop) /
+        ((document.documentElement.scrollHeight - document.documentElement.clientHeight) - document.querySelector('.footer-area').offsetHeight)) * 100);
+        _scrolled = Math.min(100, _scrolled)
+
+    document.querySelector('#scroll-status-percent').style.width = _scrolled + '%';
+}
+
+function _realocateElements() {
+
+    document.querySelector('#alternative-sharing-block').innerHTML = document.querySelector('.sharedaddy').innerHTML;
+}
+
+function _getRelatedPosts() {
+
+    var relatedposts_url = window.location.href.split('?')[0] + '?relatedposts=1';
+    relatedposts_url = "https://sematext.com/blog/cassandra-monitoring-tools?relatedposts=1";
+    var _xhr = new XMLHttpRequest();
+        _xhr.overrideMimeType("application/json");
+        _xhr.open('GET', relatedposts_url, true);
+        _xhr.setRequestHeader('crossOrigin', 'anonymous');
+        _xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        _xhr.onload = function() {
+
+            _renderRelatedPosts(_xhr.response);
+        }
+        _xhr.send(null);
+}
+
+function _renderRelatedPosts(jsonData) {
+
+    let data = null;
+        try { data = JSON.parse(jsonData); }
+        catch (e) { data = { "headline" :"", "items" :[] }; }
+
+    let _items = [];
+    for ( let i=0; i<data.items.length; i++ ) {
+
+        let _item = `<div class="related-content-item">`;
+            _item += `<h4><a href="${data.items[i].url}">${data.items[i].title}</a></h4>`;
+            _item += `<figure><a href="${data.items[i].url}"><img src="${data.items[i].img.src}" /></a></figure>`;
+            _item += `<p>${data.items[i].context}</p>`;
+            _item += `</div>`;
+
+        _items.push(_item);
+    }
+
+    let _htmlOutput = `<h3>${data.headline}</h3>`;
+        _htmlOutput += `<div class="related-content-items">`;
+        _htmlOutput += _items.join('');
+        _htmlOutput += `</div>`;
+
+    if (!data.items.length) { _htmlOutput = '' }
+    document.querySelector('#related-content').innerHTML = _htmlOutput;
+}
+
+// ~~ TOC ~~
+function _tocJump(where) {
+
+    var _where = where.split('#')[1];
+    var _target_y = jQuery('#' + _where).offset().top;
+    jQuery('html,body').animate({ scrollTop: _target_y - 130 }, 350);
+    window.location.hash = '#' + _where;
+}
+
+function _toc() {
+
+    function _slugify( str ) {
+        return str.toString().toLowerCase()
+            .replace(/\s+/g, '-')
+            .replace(/[^\w\-]+/g, '')
+            .replace(/\-\-+/g, '-');
+    }
+
+    var _the_content = document.querySelector("article#post-51264 > main > section #the-content");
+    var _toc = '<ul class="toc">';
+    var _hs = [].slice.call( _the_content.querySelectorAll('h2, h3:not([class])') );
+        _hs.forEach(function(el, i) {
+
+            var _class = 'header-' + el.tagName.toLowerCase();
+            var _txt = el.innerText;
+            var _id = 'toc-' + _slugify(_txt) + '-' + i;
+                el.id = _id; // Set anchor
+            if (!!_txt) { // Set menu item
+                _toc += '\n';
+                _toc += '<li class="' + _class + '"><a href="#' + _id + '" title="' + _txt + '" onclick="_tocJump(this.href); return false;">' + _txt + '</a></li>';
+            }
+        });
+
+    // Close TOC
+    _toc += '\n';
+    _toc += '</ul>';
+    _toc = (!_hs.length) ? '' : _toc;
+
+    // Inject TOC
+    var toc_nav = document.querySelector('nav#toc-nav');
+    var is_multipost = !!toc_nav.querySelector('#serial-posts-wrapper')
+    if ( is_multipost ) {
+
+        var _current = toc_nav.querySelector('.current-inactive');
+            _current.innerHTML += _toc
+
+        var _toc_items = toc_nav.querySelectorAll('li.serial-posts-list-item');
+            _toc_items = Array.from(_toc_items);
+            _toc_items.forEach(function(el, i) {
+                el.innerHTML = 'Part '+ (i+1) +': ' + el.innerHTML;
+            });
+
+        var _ultoc_open = true;
+        _current.addEventListener('click', function(e) {
+            if ( _ultoc_open == true ) {
+                this.querySelector('ul.toc').style.display = 'none';
+                _ultoc_open = false;
+            } else {
+                this.querySelector('ul.toc').style.display = 'block';
+                _ultoc_open = true;
+            }
+        });
+        _current.querySelector('ul').addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+
+    } else {
+
+        var _toc_title = '<h3 class="serial-posts-heading">Table of Contents</h3>';
+        toc_nav.innerHTML += (_toc.length > 0) ? _toc_title : '';
+        toc_nav.innerHTML += _toc;
+    }
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    _toc();
+    _highlighter();
+    _getRelatedPosts();
+
+    window.addEventListener('scroll', function() {
+
+        _scrollBar();
+    });
+});
+
+window.addEventListener("load", function() {
+
+    _realocateElements();
+    _fiColor();
+
+})
+</script>
+
+		</div><!-- close .row -->
+	</div><!-- close .container -->
+</div><!-- close .site-content -->
+
+	<div class="footer-area">
+
+		<div class="container footer-inner">
+			<div class="col-md-3 col-sm-6">
+				<h4>Products</h4>
+				<ul>
+					<li><a href="/cloud/" title="Sematext Cloud">Sematext Cloud</a></li>
+					<li><a href="/spm/" title="Infrastructure Monitoring">Infrastructure Monitoring</a></li>
+					<li><a href="/logsene/" title="Log Management">Log Management</a></li>
+					<li><a href="/experience/" title="Real User Monitoring">Real User Monitoring</a></li>
+					<li><a href="/synthetic-monitoring/" title="Synthetic Monitoring">Synthetic Monitoring</a></li>
+					<li><a href="/tracing/" title="Distributed Transaction Tracing">APM / Tracing</a></li>
+					<li><a href="/enterprise/" title="Sematext Enterprise">Sematext Enterprise</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-6">
+				<h4>Services</h4>
+				<ul>
+					<li><a href="/consulting/" title="Consulting">Consulting</a></li>
+					<li><a href="/support/" title="Support">Support</a></li>
+					<li><a href="/training/" title="Training">Training</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-6">
+				<h4>About</h4>
+				<ul>
+					<li><a href="/about/" title="Company">Company</a></li>
+					<li><a href="/blog/" title="Blog">Blog</a></li>
+					<li><a href="/jobs/" title="Jobs">Jobs</a></li>
+					<li><a href="/customers/" title="Customers">Customers</a></li>
+					<li><a href="https://status.sematext.com/" title="Status">Status</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-6">
+				<h4>Contact</h4>
+				<ul>
+					<li><i class="fa fa-phone fa-fw"></i> <a href="tel:+1 347-480-1610">+1 347-480-1610</a></li>
+					<li><i class="fa fa-envelope fa-fw"></i> <a href="mailto:info@sematext.com">info@sematext.com</a></li>
+					<li><i class="fa fa-map-marker fa-fw"></i> <a href="https://www.google.com/maps/place/540+President+St,+Brooklyn,+NY+11215,+EE.+UU./@40.6773068,-73.9875385,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25a55722bfff7:0x2143eab42dc5c96d!8m2!3d40.67713!4d-73.984982" target="_blank">Brooklyn, NY USA</a></li>
+					<li class="social-networks">
+						<a href="https://twitter.com/sematext"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/Sematext/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://github.com/sematext"><i class="fa fa-github" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/company/294493/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p>
+					<strong>&copy; Sematext Group. All rights reserved</strong>
+					<br /><a href="/legal/terms-of-service/">Terms Of Service</a> · <a href="/legal/privacy/">Privacy Policy</a>
+				</p>
+			</div>
+		</div>
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			<div class="container">
+
+				<div class="copyright col-md-12">
+					<p>
+						Apache Lucene, Apache Solr and their respective logos are trademarks of the Apache Software Foundation.
+						Elasticsearch, Kibana, Logstash, and Beats are trademarks of Elasticsearch BV, registered in the U.S.
+						and in other countries. Sematext Group, Inc. is not affiliated with Elasticsearch BV.
+					</p>
+
+									</div>
+
+				
+			</div>
+			<!-- .site-info -->
+
+			
+		</footer>
+		<!-- #colophon -->
+	</div>
+
+</div>
+<!-- #page -->
+
+<template id="resources-most-popular">
+	<div id="resources-most-popular-box">
+		<div class="rsc-mostpopular-head">
+			<h3>Most Popular</h3>
+			<div class="rsc-mostpopular-nav">
+				<a href="#" id="prev">&lsaquo;</a>
+				<a href="#" id="next">&rsaquo;</a>
+			</div>
+		</div>
+		<figure>
+			<img data-baseurl="https://sematext.com/wp-content/themes/sematext-next" alt="img" />
+		</figure>
+		<div class="rsc-mostpopular-footer">
+			<h4></h4>
+			<p><a href="#" id="rsc-download-link">Download Yours</a></p>
+		</div>
+	</div>
+</template>
+
+
+  <script type="text/javascript">
+    jQuery( document ).ready( function( $ ){
+      if ( $( window ).width() >= 767 ){
+        $( '.navbar-nav > li.menu-item > a' ).click( function(){
+          window.location = $( this ).attr( 'href' );
+        });
+      }
+    });
+  </script>
+<script>jQuery(document).ready(function ($) { $('p').selectionSharer();});</script>        <script type="text/javascript">
+            (function(){
+                document.addEventListener('DOMContentLoaded', function(){
+                    let wpp_widgets = document.querySelectorAll('.popular-posts-sr');
+
+                    if ( wpp_widgets ) {
+                        for (let i = 0; i < wpp_widgets.length; i++) {
+                            let wpp_widget = wpp_widgets[i];
+                            WordPressPopularPosts.theme(wpp_widget);
+                        }
+                    }
+                });
+            })();
+        </script>
+                <script>
+            var WPPImageObserver = null;
+
+            function wpp_load_img(img) {
+                if ( ! 'imgSrc' in img.dataset || ! img.dataset.imgSrc )
+                    return;
+
+                img.src = img.dataset.imgSrc;
+
+                if ( 'imgSrcset' in img.dataset ) {
+                    img.srcset = img.dataset.imgSrcset;
+                    img.removeAttribute('data-img-srcset');
+                }
+
+                img.classList.remove('wpp-lazyload');
+                img.removeAttribute('data-img-src');
+                img.classList.add('wpp-lazyloaded');
+            }
+
+            function wpp_observe_imgs(){
+                let wpp_images = document.querySelectorAll('img.wpp-lazyload'),
+                    wpp_widgets = document.querySelectorAll('.popular-posts-sr');
+
+                if ( wpp_images.length || wpp_widgets.length ) {
+                    if ( 'IntersectionObserver' in window ) {
+                        WPPImageObserver = new IntersectionObserver(function(entries, observer) {
+                            entries.forEach(function(entry) {
+                                if (entry.isIntersecting) {
+                                    let img = entry.target;
+                                    wpp_load_img(img);
+                                    WPPImageObserver.unobserve(img);
+                                }
+                            });
+                        });
+
+                        if ( wpp_images.length ) {
+                            wpp_images.forEach(function(image) {
+                                WPPImageObserver.observe(image);
+                            });
+                        }
+
+                        if ( wpp_widgets.length ) {
+                            for (var i = 0; i < wpp_widgets.length; i++) {
+                                let wpp_widget_images = wpp_widgets[i].querySelectorAll('img.wpp-lazyload');
+
+                                if ( ! wpp_widget_images.length && wpp_widgets[i].shadowRoot ) {
+                                    wpp_widget_images = wpp_widgets[i].shadowRoot.querySelectorAll('img.wpp-lazyload');
+                                }
+
+                                if ( wpp_widget_images.length ) {
+                                    wpp_widget_images.forEach(function(image) {
+                                        WPPImageObserver.observe(image);
+                                    });
+                                }
+                            }
+                        }
+                    } /** Fallback for older browsers */
+                    else {
+                        if ( wpp_images.length ) {
+                            for (var i = 0; i < wpp_images.length; i++) {
+                                wpp_load_img(wpp_images[i]);
+                                wpp_images[i].classList.remove('wpp-lazyloaded');
+                            }
+                        }
+
+                        if ( wpp_widgets.length ) {
+                            for (var j = 0; j < wpp_widgets.length; j++) {
+                                let wpp_widget = wpp_widgets[j],
+                                    wpp_widget_images = wpp_widget.querySelectorAll('img.wpp-lazyload');
+
+                                if ( ! wpp_widget_images.length && wpp_widget.shadowRoot ) {
+                                    wpp_widget_images = wpp_widget.shadowRoot.querySelectorAll('img.wpp-lazyload');
+                                }
+
+                                if ( wpp_widget_images.length ) {
+                                    for (var k = 0; k < wpp_widget_images.length; k++) {
+                                        wpp_load_img(wpp_widget_images[k]);
+                                        wpp_widget_images[k].classList.remove('wpp-lazyloaded');
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+                wpp_observe_imgs();
+
+                // When an ajaxified WPP widget loads,
+                // Lazy load its images
+                document.addEventListener('wpp-onload', function(){
+                    wpp_observe_imgs();
+                });
+            });
+        </script>
+        
+<style type="text/css">
+    #wpfront-notification-bar 
+    {
+        background: #6e39ff;
+        background: -moz-linear-gradient(top, #6e39ff 0%, #6e39ff 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6e39ff), color-stop(100%,#6e39ff));
+        background: -webkit-linear-gradient(top, #6e39ff 0%,#6e39ff 100%);
+        background: -o-linear-gradient(top, #6e39ff 0%,#6e39ff 100%);
+        background: -ms-linear-gradient(top, #6e39ff 0%,#6e39ff 100%);
+        background: linear-gradient(to bottom, #6e39ff 0%, #6e39ff 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e39ff', endColorstr='#6e39ff',GradientType=0 );
+    }
+
+    #wpfront-notification-bar div.wpfront-message
+    {
+        color: #ffffff;
+    }
+
+    #wpfront-notification-bar a.wpfront-button
+    {
+        background: #4524a0;
+        background: -moz-linear-gradient(top, #4524a0 0%, #4524a0 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4524a0), color-stop(100%,#4524a0));
+        background: -webkit-linear-gradient(top, #4524a0 0%,#4524a0 100%);
+        background: -o-linear-gradient(top, #4524a0 0%,#4524a0 100%);
+        background: -ms-linear-gradient(top, #4524a0 0%,#4524a0 100%);
+        background: linear-gradient(to bottom, #4524a0 0%, #4524a0 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4524a0', endColorstr='#4524a0',GradientType=0 );
+
+        color: #ffffff;
+    }
+
+    #wpfront-notification-bar-open-button
+    {
+        background-color: #4524a0;
+    }
+
+    #wpfront-notification-bar  div.wpfront-close 
+    {
+        border: 1px solid #4524a0;
+        background-color: #4524a0;
+        color: #272727;
+    }
+
+    #wpfront-notification-bar  div.wpfront-close:hover 
+    {
+        border: 1px solid #272727;
+        background-color: #272727;
+    }
+</style>
+
+
+<div id="wpfront-notification-bar-spacer"  style="display: none;">
+    <div id="wpfront-notification-bar-open-button" class="top wpfront-bottom-shadow"></div>
+    <div id="wpfront-notification-bar" class="wpfront-fixed ">
+                <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <div class="wpfront-message">
+                        New! Introducing the Sematext Browser SDK. <a href="https://sematext.com/product-updates/#/2020/introducing-the-sematext-browser-sdk">Learn more</a>                    </div>
+                    <div>
+                                            </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<style type="text/css">
+.navbar-fixed-top { top: 40px; }
+.breadcrumb, .breadcrumb1 { top: 89px; }
+#wpfront-notification-bar table,
+#wpfront-notification-bar tbody,
+#wpfront-notification-bar tr,
+#wpfront-notification-bar td {
+    display: block;
+    width: 100%;
+    padding: 0;
+    vertical-align: middle;
+}
+#wpfront-notification-bar td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.wpfront-message {
+    font-size: 15px;
+    font-weight: 400;
+}
+.wpfront-message a {
+    display: inline-block;
+    background: #4524a0;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 8px;
+    margin: 0 0 0 8px;
+}
+.wpfront-message a:hover { background: #272727; }
+
+@media only screen and (max-width: 600px)  {
+    #wpfront-notification-bar { 
+        max-width: 100%;
+        overflow: hidden;
+        height: auto;
+        min-height: 40px;        
+    }
+    #wpfront-notification-bar td {
+        height: auto;
+        min-height: 40px;
+    justify-content: flex-start;
+    padding: 5px 105px 5px 10px;
+    }
+    .wpfront-message {
+        font-size: 11px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+    .wpfront-message a {
+        font-size: 11px;
+        padding: 3px 5px;
+        margin: 0 0 0 4px;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    }
+}
+body.logged-in .navbar-fixed-top { top: 72px; }
+body.logged-in .breadcrumb1 { top: 120px; }
+.affix { top: 40px; }
+body.logged-in .card {
+    margin-top: 190px;
+    margin-bottom: 30px;
+}
+.card {
+    margin-top: 160px;
+    margin-bottom: 30px;
+}</style>
+<script type="text/javascript">if(typeof wpfront_notification_bar == "function") wpfront_notification_bar({"position":1,"height":40,"fixed_position":"on","animate_delay":0,"close_button":false,"button_action_close_bar":false,"auto_close_after":0,"display_after":0,"is_admin_bar_showing":false,"display_open_button":false,"keep_closed":false,"keep_closed_for":0,"position_offset":0,"display_scroll":false,"display_scroll_offset":0});</script>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/sematext.com\/blog\/cassandra-monitoring-tools\/":51264};
+	</script>
+					<div id="sharing_email" style="display: none;">
+		<form action="/blog/cassandra-monitoring-tools/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed" />
+			
+			<img style="float: right; display: none" class="loading" src="https://sematext.com/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a rel="nofollow" href="#cancel" class="sharing_cancel" role="button">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+<script type='text/javascript' src='https://sematext.com/wp-content/themes/sematext-next/inc/js/custom_script.js?ver=1.1'></script>
+<script type='text/javascript' src='https://sematext.com/wp-includes/js/comment-reply.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='https://sematext.com/wp-includes/js/wp-embed.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='https://sematext.com/wp-content/plugins/selection-sharer/js/selection-sharer.js?ver=0.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sematext.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=8.5'></script>
+<script type='text/javascript'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-linkedin', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+</script>
+<script type='text/javascript' src='https://stats.wp.com/e-202047.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.5',blog:'107910772',post:'51264',tz:'-5',srv:'sematext.com'} ]);
+	_stq.push([ 'clickTrackerInit', '107910772', '51264' ]);
+</script>
+
+
+	<!-- LinkedIn Insight Tag -->
+	<script type="text/javascript">
+	    _linkedin_partner_id = "2338377";
+	    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+	    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+
+	    (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})();
+	</script>
+	<noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2338377&fmt=gif" /></noscript>
+	<!-- End of LinkedIn Insight Tag -->
+
+	<script async defer src="https://sematext.com/wp-content/themes/sematext-theme/inc/js/smtuc.js"></script>
+
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 265/270 objects using disk
+Page Caching using disk: enhanced 
+Minified using disk
+Database Caching using disk
+
+Served from: sematext.com @ 2020-11-16 07:35:49 by W3 Total Cache
+-->
